@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.17)
+project(patterns)
+
+set(CMAKE_CXX_STANDARD 14)
+
+add_executable(patterns lab1/main.cpp lab1/publishers/AbstractGamePublisher.h lab1/publishers/EaPublisher.cpp lab1/publishers/EaPublisher.h lab1/publishers/UbisoftPublisher.cpp lab1/publishers/UbisoftPublisher.h lab1/platforms/XboxGame.h lab1/platforms/PlayStationGame.h lab1/games/Game.h lab1/directors_and_builders/Director.cpp lab1/directors_and_builders/Director.h lab1/directors_and_builders/Builder.cpp lab1/directors_and_builders/Builder.h lab1/games/EaXboxGame.cpp lab1/games/EaXboxGame.h lab1/games/EaPlayStationGame.cpp lab1/games/EaPlayStationGame.h lab1/games/UbisoftXboxGame.cpp lab1/games/UbisoftXboxGame.h lab1/games/UbisoftPlayStationGame.cpp lab1/games/UbisoftPlayStationGame.h lab1/directors_and_builders/ArcadeBuilder.cpp lab1/directors_and_builders/ArcadeBuilder.h lab1/directors_and_builders/AdventureBuilder.cpp lab1/directors_and_builders/AdventureBuilder.h lab1/publishers/AbstractGamePublisher.cpp)
